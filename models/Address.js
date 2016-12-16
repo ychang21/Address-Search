@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 // Create article schema
-var AdressSchema = new Schema({
+var AddressSchema = new Schema({
   // title is required
   location: {
     type:String,
