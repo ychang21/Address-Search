@@ -27,6 +27,7 @@ app.use(express.static("./public"));
 mongoose.connect('mongodb://localhost/address-search');
 var db = mongoose.connection;
 
+
 db.on("error", function(err) {
   console.log("Mongoose Error: ", err);
 });
